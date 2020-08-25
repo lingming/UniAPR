@@ -54,25 +54,25 @@ The user can override default values of UniAPR parameters by adding a `<configur
     <groupId>org.uniapr</groupId>
     <artifactId>uniapr-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!-- <configuration>                                                -->
-    (1)   <!-- <failingTests>                                   -->
+    <!-- <configuration>                                                            -->
+    (1)   <!-- <failingTests>                                                       -->
           <!--  <failingTest>fully.qualified.test.Class1::testMethod1</failingTest> -->
-          <!--    ...                                   -->
+          <!--    ...                                                               -->
           <!--  <failingTest>fully.qualified.test.ClassN::testMethodN</failingTest> -->
-          <!-- </failingTests>                              -->
+          <!-- </failingTests>                                                      -->
 
     (2)   <!-- <whiteListPrefix>${project.groupId}</whiteListPrefix>                -->
     
     (3)   <!-- <patchesPool>patches-pool</patchesPool>                              -->
 
-    (4)   <!-- <resetJVM>false</resetJVM>                       -->
+    (4)   <!-- <resetJVM>false</resetJVM>                                           -->
         
-    (5)   <!-- <childJVMArgs>                               -->
-          <!--  <childJVMArg>-Xmx16g</childJVMArg>                              -->
-          <!--  ...                                                             -->
-          <!--  <childJVMArg>Mth argument to the child JVM</childJVMArg>        -->
+    (5)   <!-- <childJVMArgs>                                                       -->
+          <!--  <childJVMArg>-Xmx16g</childJVMArg>                                  -->
+          <!--  ...                                                                 -->
+          <!--  <childJVMArg>Mth argument to the child JVM</childJVMArg>            -->
           <!-- </childJVMArgs>                                                      -->
-    <!-- </configuration>                                       -->
+    <!-- </configuration>                                                           -->
 </plugin>
 ```
 
