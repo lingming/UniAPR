@@ -1,3 +1,5 @@
+# 🔥NEW🔥 The source code and dataset of UniAPR has been released at https://github.com/ise-uiuc/uniapr.
+
 # UniAPR: Fast and Precise On-the-fly Patch Validation for All
 
 ## Table of Contents
